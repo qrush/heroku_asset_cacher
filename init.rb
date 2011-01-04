@@ -1,2 +1,2 @@
 require 'actionpack_overrides'
-ActionController::Dispatcher.middleware.use HerokuAssetCacher
+Rails.application.config.middleware.use HerokuAssetCacher
